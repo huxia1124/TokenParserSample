@@ -3,8 +3,8 @@ This is a C++ utility function that splits a string by given separators.
 It supports quoted tokens.
 Unicode/Wide characters are also supported
 
-// usage:
-
+Usage:
+```c++
 	std::vector<std::string> result;
 	const char* input = "A long sentence with many tokens, even \"quoted tokens\" and something like \"(a,b,c)\".";
 
@@ -28,3 +28,4 @@ Unicode/Wide characters are also supported
 	like
 	"(a,b,c)"
 	---- output end ---- */
+```
